@@ -7,7 +7,7 @@
   var MyVariable;
   var UseCss = true;
   ```
-  - *Хорошо:*
+  - **Хорошо:**
   ```javascript
   var myVariable;
   var useCSS = true;
@@ -26,7 +26,8 @@
       // some code
   }
   ```
-  - *Хорошо:*
+  - **Хорошо:**
+  ```javascript
   // some code
   var myVar1 = 1;
   if (myVar1 === 1) {
@@ -38,3 +39,12 @@
       // some code
   }
   ```
+
+##Черновые заметки
+- Если много мелких самодостаточных модулей (до 2 файлов), то можно сгруппировать директории по типам файлов (js, css, images).
+- Если модули имеют разветвлённую структуру (больше 2 файлов каждого типа на модуль), то имеет смысл разделить по директориям модулей (module1, module2, module3).
+- Избегать сайд-эффектов (функция взаимодействует только с теми объектами, которые ей переданы и своим владельцем - this).
+
+##Ссылки
+- http://programer.tips/2014/09/best-jquery-practices.html
+- http://blog.risingstack.com/node-js-best-practices/
