@@ -1,4 +1,4 @@
-#Технологический стек
+#JavaScript Best Tools
 - CSS-фреймворк:
   - Bootstrap 3
 - CSS-препроцессор (выбрать):
