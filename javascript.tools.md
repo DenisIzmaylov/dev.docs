@@ -132,3 +132,4 @@
 - Дополнительно:
   - https://stripe.com
   - https://jscrambler.com/ru/
+  - https://github.com/davidsonfellipe/awesome-wpo
