@@ -109,7 +109,8 @@
   - gulp-jsbeautifier?
   - gulp-jsdoc?
   - gulp-asset
-  - csslint, jslint, jshint to check style guides?
+  - csslint, jslint, jshint to check code quality? jscs to check style guides?
+  - https://github.com/osscafe/gulp-cheatsheet
 - Для создания изоморфных проектов:
   - Meteor?
   - React
